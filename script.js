@@ -4,7 +4,7 @@ function addTask(){
     let taskText = input.value;
 
     if(taskText === ""){
-        alert("Please enter some task");
+        alert("Please enter a task");
         return;
     }
 
